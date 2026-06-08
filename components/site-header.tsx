@@ -13,7 +13,13 @@ export function SiteHeader() {
                     src="/hhgym/logo-mit-schriftzug-sw.png"
                     alt="HHGYM Logo"
                     fill
-                    className="object-contain"
+                    className="object-contain dark:hidden"
+                />
+                <Image
+                    src="/hhgym/logo-mit-schriftzug-white.png"
+                    alt="HHGYM Logo"
+                    fill
+                    className="object-contain hidden dark:block"
                 />
             </div>
           </div>
