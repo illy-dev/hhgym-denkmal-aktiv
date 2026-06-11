@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Noto_Sans } from "next/font/google";
-import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 
@@ -21,14 +20,8 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${notoSans.className} antialiased`}>
-        <ThemeProvider attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
             <SiteHeader />
           {children}
-        </ThemeProvider>
       </body>
     </html>
   );
