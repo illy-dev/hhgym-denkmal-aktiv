@@ -17,22 +17,16 @@ export default function Home() {
       </section>
 
       <section className="py-12">
-        <div className="mx-auto max-w-4xl px-4 text-left">
-          <h1 className="text-4xl font-bold">Willkommen zum HHGYM Denkmal Aktiv Projekt!</h1>
+        <div className="px-4 text-left">
+          <h1 className="text-4xl font-bold">Denkmalaktiv Projekt an der East Side Gallery</h1>
+          <p className="max-w-[40%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam dignissimos in itaque praesentium, quasi fugit, libero reprehenderit quos eius nemo vitae, non unde totam fuga? Id voluptatibus minima rerum!</p>
         </div>
+          <Image 
+          src=""
+          
+          />
       </section>
 
-      <section className="py-12">
-        <div className="mx-auto max-w-4xl px-4 text-right">
-          <h1 className="text-4xl font-bold">Willkommen zum HHGYM Denkmal Aktiv Projekt!</h1>
-        </div>
-      </section>
-
-      <section className="py-12">
-        <div className="mx-auto max-w-4xl px-4 text-center">
-          <h1 className="text-4xl font-bold">Willkommen zum HHGYM Denkmal Aktiv Projekt!</h1>
-        </div>
-      </section>
     </>
   );
 }

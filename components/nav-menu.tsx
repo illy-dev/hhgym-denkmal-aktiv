@@ -23,14 +23,14 @@ export function NavMenu() {
           <NavigationMenuTrigger>Projekte</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="w-65">
-              <ListItem href="/docs" title="Interaktive Geschichten">
+              <ListItem href="/twine-geschichten" title="Interaktive Geschichten">
                 Das ist eine Beschreibung für <br />die 
                 Twine Geschichten
               </ListItem>
-              <ListItem href="/docs/installation" title="Kunstwerke">
+              <ListItem href="/kunstwerke" title="Kunstwerke">
                 Kunst Unterricht Neu-Interpretierte <br />Kunstwerke mit Erklärtexten
               </ListItem>
-              <ListItem href="/docs/primitives/typography" title="Dokumentationen">
+              <ListItem href="/dokumentation" title="Dokumentationen">
                 Texte zur Mauer und zum<br /> Projekt
               </ListItem>
             </ul>
