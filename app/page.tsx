@@ -1,3 +1,4 @@
+import { Zitate } from "@/components/zitate-caroussel";
 import Image from "next/image";
 
 export default function Home() {
@@ -16,15 +17,33 @@ export default function Home() {
         </a>
       </section>
 
-      <section className="py-12">
-        <div className="px-4 text-left">
-          <h1 className="text-4xl font-bold">Denkmalaktiv Projekt an der East Side Gallery</h1>
-          <p className="max-w-[40%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam dignissimos in itaque praesentium, quasi fugit, libero reprehenderit quos eius nemo vitae, non unde totam fuga? Id voluptatibus minima rerum!</p>
+      <section className="py-12 px-12">
+        <div className="md:flex">
+          <div className="text-left">
+            <p className="pb-8">HIER STEHT NOCH WAS</p>
+            <h1 className="sm:text-3xl md:text-5xl font-bold max-w-[60%]">Denkmalaktiv Projekt an der East Side Gallery</h1>
+            <p className="max-w-[80%] py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquam dignissimos in itaque praesentium, quasi fugit, libero reprehenderit quos eius nemo vitae, non unde totam fuga? Id voluptatibus minima rerum!</p>
+          </div>
+          <div>
+              <Image 
+              src="/mauerbild1.jpg"
+              alt="Mauer bild"
+              width={800}
+              height={1600}
+              className="rounded-xl"
+              />
+            </div>
+          </div>
+      </section >
+
+      <section className="py-12 px-12">
+        <div className="text-left">
+            <p className="pb-8">HIER STEHT NOCH WAS</p>
+            <h1 className="sm:text-3xl md:text-5xl font-bold max-w-[60%]">Zitate von Schülern</h1>
+          </div>
+        <div className="flex justify-center items-center pt-4">
+        <Zitate />
         </div>
-          <Image 
-          src=""
-          
-          />
       </section>
 
     </>
