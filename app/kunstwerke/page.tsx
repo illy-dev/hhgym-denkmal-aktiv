@@ -1,4 +1,6 @@
-import Image from "next/image";
+"use client";
+
+import { ArtworkItem } from "@/components/artwork-item";
 
 export default function Kunstwerke() {
   const kunstwerke: { src: string; alt: string }[] = [
@@ -39,14 +41,7 @@ export default function Kunstwerke() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
         {kunstwerke.map((werk, index) => (
-          <div key={index} className="relative w-full aspect-square">
-            <Image
-              src={werk.src}
-              alt={werk.alt}
-              fill
-              className="object-cover rounded-lg"
-            />
-          </div>
+          <ArtworkItem key={index} src={werk.src} alt={werk.alt} />
         ))}
       </div>
     </>
