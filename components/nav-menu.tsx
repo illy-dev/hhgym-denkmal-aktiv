@@ -24,14 +24,14 @@ export function NavMenu() {
           <NavigationMenuContent>
             <ul className="w-65">
               <ListItem href="/twine-geschichten" title="Interaktive Geschichten">
-                Das ist eine Beschreibung für <br />die 
-                Twine Geschichten
+                Point-and-Click-Abenteuer <br />zur
+                DDR-Geschichte
               </ListItem>
               <ListItem href="/kunstwerke" title="Kunstwerke">
-                Kunst Unterricht Neu-Interpretierte <br />Kunstwerke mit Erklärtexten
+                Neu-Interpretierte Versionen der<br />Kunstwerke der East-Side-Gallery
               </ListItem>
               <ListItem href="/dokumentation" title="Dokumentationen">
-                Texte zur Mauer und zum<br /> Projekt
+                Erklärtexte zur <br /> Berliner Mauer
               </ListItem>
             </ul>
           </NavigationMenuContent>
