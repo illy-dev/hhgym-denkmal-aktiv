@@ -164,7 +164,7 @@ export const kunstwerkeData: Kunstwerk[] = [
     In meiner Auseinandersetzung übernehme ich die Grundidee, verändere jedoch die Anordnung: Die himmelblauen Wortfelder haben ihre Position mit der von mir konstruierten Barriere getauscht. So lese ich die Arbeit als Aktualisierung — nicht die Trennung ist mehr der vorherrschende Zustand, sondern der Fortbestand der Werte selbst. Die Farbgebung habe ich kaum verändert; stattdessen erhöhte ich die Zahl der Schlagworte und baute die Barriere aus Mauerstücken. Dadurch erscheint der Bestand von Freiheit, Wohlstand und Gerechtigkeit als gegenwärtiger Umstand, während die Trennung die drohende, aber noch greifbare Zukunft markiert. 
     Für mich spiegelt die Arbeit die Gegenwart wider: eine Welt, in der Grenzen sich verhärten und Identitäten neu verhandelt werden. Die drängenden Fragen nach Ich, Freiheit und Gerechtigkeit sind so aktuell wie lange nicht — und doch bleibt eine alternative Zukunft möglich; der Reißverschluss steht hier als Metapher für eine verhinderbare Entwicklung, gegen die es sich zu engagieren lohnt.
     `,
-    original_src: "/kunstwerke/original/denk_mal.jpg",
+    original_src: "/kunstwerke/original/denk-mal.jpg",
     original_alt: "Denk-Mal, Mahn-Mal",
     original_source: "Rainer Jehle, Denk-Mal, Mahn-Mal, 2009 © Stiftung Berliner Mauer, Foto: Günther Schaefer",
     titel: "Denk-Mal, Mal-mal"
