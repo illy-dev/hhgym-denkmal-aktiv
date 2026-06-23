@@ -8,7 +8,7 @@ export default function Kunstwerke() {
   return (
     <>
       <div className="text-left p-6 pt-36">
-        <h1 className="sm:text-3xl md:text-5xl font-bold max-w-[60%]">Kunstwerke von Schülern</h1>
+        <h1 className="text-3xl md:text-5xl font-bold max-w-[60%]">Kunstwerke von Schülern</h1>
         <p>Hier sind einige der Kunstwerke, die im Rahmen des Projekts an der East Side Gallery entstanden sind:</p>
       </div>
 

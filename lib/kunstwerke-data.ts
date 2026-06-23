@@ -109,13 +109,18 @@ export const kunstwerkeData: Kunstwerk[] = [
   { id: "florian", src: "/kunstwerke/Florian.jpg", alt: "Kunstwerk von Florian", artist: "Florian", mult_img: false,
     body: `
     Das Bild von Thierry Noir mit seinen bunten, einfachen Köpfen hat mich sofort angesprochen. Die Figuren sind sehr reduziert und wirken fast kindlich. Trotzdem haben sie eine starke Präsenz. Noir setzte Farbe und Wiederholung ein, um der grauen Mauer etwas Menschliches und Widerständiges entgegenzustellen. Diese Kombination aus klarer Bildsprache und politischer Dringlichkeit wollte ich in die Gegenwart holen.
+    
     Noirs Werk zeigt eine Reihe abstrakter, stilisierter, farbiger Köpfe, dicht aneinandergereiht auf der Mauer. Die Figuren sind flächig und in kräftigen Farben gehalten. Sie stehen symbolisch für die junge Generation, für Hoffnung, Zusammenhalt sowie die Forderung nach Demokratie und Frieden. Durch die ständige Wiederholung entsteht Bewegung, die die trennende Wirkung der Mauer fast aufhebt.
+    
     Ich habe Noirs Motiv übernommen und inhaltlich verschoben: Gleiche Köpfe, aber in ungleichen Räumen. Auf einem großformatigen Blatt habe ich die Fläche mehrfach mittig geteilt, orientiert am Goldenen Schnitt, sodass unterschiedlich große Felder entstanden, die sich spiralförmig anordnen. In jedes Feld habe ich einen Kopf gesetzt, der Noirs Bildsprache nahekommt. Die verschiedenen Feldgrößen stehen für ungleiche Lebens‑ und Entwicklungschancen, denen junge Menschen heute trotz gleicher Identität begegnen. Die Komposition arbeitet mit Rhythmus und Wiederholung, bricht die Harmonie aber bewusst durch ungleiche Proportionen. So wird soziale Ungleichheit sichtbar.
+    
     Die Farben bleiben dem Original treu: Leuchtende, vielfältige Töne stehen für Diversität und Lebendigkeit. Durch die wiederholte Anordnung entsteht eine Balance zwischen Gemeinschaft und Zerlegung in einzelne Teile. Mir war wichtig, Noirs einfache, ikonische Bildsprache zu respektieren und zugleich eine kritische Aktualisierung vorzunehmen, die auf heutige soziale Unterschiede hinweist.
+    
     Das Thema ist für mich sehr aktuell. Junge Menschen wachsen heute in einer Welt auf, in der Chancen und Räume durch strukturelle Ungleichheiten oft ungerecht verteilt sind. Ich habe bewusst Noirs Bildsprache gewählt, weil sie leicht zugänglich ist und Raum für eigene Deutungen lässt. Mein Werk soll nicht belehren, sondern zum Nachdenken anregen: Es soll die Betrachterinnen und Betrachter dazu bringen, über die Verteilung von Chancen nachzudenken und die eigene Rolle in gesellschaftlichen Strukturen zu hinterfragen.
+    
     Noirs Bild wirkt, als wären die Räume für alle gleich. In meinem Werk nutze ich diese Räume bewusst als Metapher für Chancen und stelle dem die heutige Realität gegenüber: Chancen und Räume sind oft ungleich und unfair verteilt. Ich möchte damit zum Nachdenken anregen und zeigen, dass wir die Rahmenbedingungen so verändern müssen, dass wirklich alle dieselben Möglichkeiten bekommen.
     `,
-    original_src: "hommage.jpg",
+    original_src: "/kunstwerke/original/hommage.jpg",
     original_alt: "Hommage an die junge Generation",
     original_source: "Thierry Noir, Hommage an die junge Generation, 2009 © Stiftung Berliner Mauer, Foto: Günther Schaefer",
     titel: "Aktualisierte Hommage an die junge Generation – 2026"
