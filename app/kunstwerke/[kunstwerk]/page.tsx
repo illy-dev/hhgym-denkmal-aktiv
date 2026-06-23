@@ -1,0 +1,56 @@
+import Image from "next/image";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import { kunstwerkeData, getKunstwerk } from "@/lib/kunstwerke-data";
+
+export const dynamicParams = true;
+
+interface PageProps {
+  params: Promise<{
+    kunstwerk: string;
+  }>;
+}
+
+export default async function KunstwerkPage({ params }: PageProps) {
+  const { kunstwerk } = await params;
+  const werk = getKunstwerk(kunstwerk);
+
+  if (!werk) {
+    notFound();
+  }
+
+  const currentIndex = kunstwerkeData.findIndex(w => w.id === kunstwerk);
+  const previousWerk = currentIndex > 0 ? kunstwerkeData[currentIndex - 1] : null;
+  const nextWerk = currentIndex < kunstwerkeData.length - 1 ? kunstwerkeData[currentIndex + 1] : null;
+
+  return (
+    <div className="min-h-screen bg-white pt-36 pb-4">
+      <div className="max-w-4xl mx-auto px-4">
+
+          <h1 className="text-4xl font-bold mb-4">Kunstwerk von {werk.artist}</h1>
+          <div className="relative w-full aspect-square mb-6 rounded-lg overflow-hidden">
+            <Image
+              src={werk.src}
+              alt={werk.alt}
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+
+        <div className="flex justify-between items-center">
+            <Link href="/kunstwerke" className="text-blue-600 hover:text-blue-800">
+            ← Zurück zu Kunstwerke
+            </Link>
+
+    </div>
+      </div>
+    </div>
+  );
+}
+
+export function generateStaticParams() {
+  return kunstwerkeData.map((werk) => ({
+    kunstwerk: werk.id,
+  }));
+}

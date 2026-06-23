@@ -85,7 +85,7 @@ export function Zitate() {
     <Carousel className="w-[80%]">
       <CarouselContent className="-ml-1">
         {zitate.map((zitat, index) => (
-          <CarouselItem key={index} className="basis-1/2 pl-1 lg:basis-1/3">
+          <CarouselItem key={index} className="basis-full pl-1 lg:basis-1/3">
             <div className="p-1">
               <Card>
                 <CardContent className="flex h-full flex-col justify-between p-6">
