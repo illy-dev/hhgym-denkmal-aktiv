@@ -10,7 +10,7 @@ export default function TwineGeschichten() {
         <p>Hier sind Interaktive Geschichten, die im Rahmen des Projekts entstanden sind:</p>
       </div>
 
-      <div className="flex w-full flex-row flex-wrap gap-4 p-6 overflow-hidden justify-center">
+      <div className="flex w-full flex-row flex-wrap gap-4 p-6 overflow-hidden">
           <Item asChild className="w-[90%] md:w-[20%]" variant='outline'>
             <a href="/twine/undercover.html"  target="_blank" rel="noopener noreferrer">
               <ItemContent>
