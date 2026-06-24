@@ -20,9 +20,6 @@ export default async function KunstwerkPage({ params }: PageProps) {
     notFound();
   }
 
-  const currentIndex = kunstwerkeData.findIndex(w => w.id === kunstwerk);
-  const previousWerk = currentIndex > 0 ? kunstwerkeData[currentIndex - 1] : null;
-  const nextWerk = currentIndex < kunstwerkeData.length - 1 ? kunstwerkeData[currentIndex + 1] : null;
   const paragraphs = werk.body
     .split(/\n\s*\n/)
     .map((paragraph) => paragraph.trim())
