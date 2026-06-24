@@ -11,7 +11,7 @@ export default function Dokumentation() {
         <p>Hier sind Dokumentationen, die im Rahmen des Projekts entstanden sind:</p>
       </div>
             
-      <div className="flex w-full flex-row flex-wrap gap-4 m-6 overflow-hidden">
+      <div className="flex w-full flex-row flex-wrap gap-4 p-6 overflow-hidden justify-center">
 
             {/** BAU DER MAUER */}
             <Item asChild className="w-[90%] md:w-[20%]">
