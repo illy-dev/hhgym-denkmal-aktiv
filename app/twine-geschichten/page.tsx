@@ -98,7 +98,7 @@ export default function TwineGeschichten() {
           <Item asChild className="w-[90%] md:w-[20%]" variant='outline'>
             <a href="/twine/Ein_Mann_Eine_Geschichte.html" target="_blank" rel="noopener noreferrer">
               <ItemContent>
-                <ItemTitle>Ein Mann, Eine Geschichte. Welche Rolle spielt die Pizza?</ItemTitle>
+                <ItemTitle>Ein Mann! Eine Geschichte! Welche Rolle spielt die Pizza?</ItemTitle>
                 <ItemDescription>
                   Mihael, Tim
                 </ItemDescription>
