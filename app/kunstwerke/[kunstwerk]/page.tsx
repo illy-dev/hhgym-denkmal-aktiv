@@ -38,7 +38,7 @@ export default async function KunstwerkPage({ params }: PageProps) {
                 Neue Version
               </TabsTrigger>
               <TabsTrigger value="old" className="rounded-full px-4 py-2 data-[state=active]:bg-primary data-[state=active]:text-white">
-                Alte Version
+                Original
               </TabsTrigger>
             </TabsList>
             <TabsContent value="new" className="relative">
