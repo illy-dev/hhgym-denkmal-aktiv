@@ -35,7 +35,7 @@ export default async function KunstwerkPage({ params }: PageProps) {
           <Tabs defaultValue="new" className="relative mb-8">
             <TabsList className="absolute left-1/2 top-4 z-10 flex -translate-x-1/2 rounded-full bg-white/90 p-1 shadow-md backdrop-blur">
               <TabsTrigger value="new" className="rounded-full px-4 py-2 data-[state=active]:bg-primary data-[state=active]:text-white">
-                Neue Version
+                Neuinterpretation
               </TabsTrigger>
               <TabsTrigger value="old" className="rounded-full px-4 py-2 data-[state=active]:bg-primary data-[state=active]:text-white">
                 Original
