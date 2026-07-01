@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <section className="relative h-[80vh] w-full">
+      <section id="top" className="relative h-[80vh] w-full">
         <Image
           src="/photo-wall-texture-pattern.jpg"
           alt="HHGYM Background Pattern"
@@ -23,7 +23,7 @@ export default function Home() {
       <section className="py-12 px-12">
         <div className="md:flex">
           <div className="text-left">
-            <p className="pb-2">Denkmal-Aktiv Projekt an der East Side Gallery</p>
+            <p className="pb-2">denkmal aktiv - Projekt an der East Side Gallery</p>
             <h1 className="sm:text-3xl md:text-5xl font-bold max-w-[60%]">Eine Galerie. Ein Mahnmal. Ein Denkmal</h1>
             <p className="max-w-[80%] md:max-w-[45%] py-4 space-y-4">Während der Wende in den 1980er Jahren wurde die East Side Gallery zu einer wichtigen Plattform für künstlerische Ausdrucksformen und politische Botschaften.
             <br />Zum einen entstanden interaktive Geschichten, die während der DDR-Zeit spielen und den Nutzerinnen und Nutzern ermöglichen, eigene Entscheidungen zu treffen, deren Folgen den Verlauf der Handlung beeinflussen. Dadurch wird die Lebenssituation der Menschen in der damaligen Zeit nachvollziehbar und die Einschränkungen durch das politische System werden erfahrbar gemacht.

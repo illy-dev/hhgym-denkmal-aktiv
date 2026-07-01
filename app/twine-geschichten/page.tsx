@@ -1,16 +1,15 @@
 import { Item, ItemContent, ItemTitle, ItemDescription, ItemActions } from "@/components/ui/item";
 import { ChevronRightIcon } from "lucide-react";
-import Link from "next/link";
 
 export default function TwineGeschichten() {
   return (
-    <>
-          <div className="text-left p-6 pt-36">
+    <div className="min-h-screen pb-12">
+      <div className="text-left p-6 pt-36">
         <h1 className="text-3xl md:text-5xl font-bold max-w-[60%]">Interaktive Geschichten von Schülern</h1>
         <p>Hier sind Interaktive Geschichten, die im Rahmen des Projekts entstanden sind:</p>
       </div>
 
-      <div className="flex w-full flex-row flex-wrap gap-4 p-6 overflow-hidden">
+      <div className="flex w-full flex-row flex-wrap gap-4 p-6">
           <Item asChild className="w-[90%] md:w-[20%]" variant='outline'>
             <a href="/twine/undercover.html"  target="_blank" rel="noopener noreferrer">
               <ItemContent>
@@ -221,6 +220,6 @@ export default function TwineGeschichten() {
             </a>
           </Item>
       </div>
-    </>
+    </div>
   );
 }
