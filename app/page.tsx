@@ -26,7 +26,7 @@ export default function Home() {
             <p className="pb-2">denkmal aktiv - Projekt an der East Side Gallery</p>
             <h1 className="sm:text-3xl md:text-5xl font-bold max-w-[60%]">Eine Galerie. Ein Mahnmal. Ein Denkmal</h1>
             <Separator className="my-4 h-2 w-[7.5%] bg-primary" />
-            <p className="max-w-[80%] md:max-w-[45%] py-4 space-y-4">Während der Wende in den 1980er Jahren wurde die East Side Gallery zu einer wichtigen Plattform für künstlerische Ausdrucksformen und politische Botschaften.
+            <p className="max-w-[80%] md:max-w-[45%] py-4 space-y-4">Während der Wende in den 1980er Jahren wurde die East Side Gallery zu einer wichtigen Plattform für künstlerische Ausdrucksformen und politische Botschaften. Im Rahmen der Auseinandersetzung mit diesem Thema sind drei eigenständige Projekte entstanden, die unterschiedliche Perspektiven auf die East Side Gallery beleuchten.
             <br />Zum einen entstanden interaktive Geschichten, die während der DDR-Zeit spielen und den Nutzerinnen und Nutzern ermöglichen, eigene Entscheidungen zu treffen, deren Folgen den Verlauf der Handlung beeinflussen. Dadurch wird die Lebenssituation der Menschen in der damaligen Zeit nachvollziehbar und die Einschränkungen durch das politische System werden erfahrbar gemacht.
             <br />Ein weiteres Projekt beschäftigt sich mit den Kunstwerken der East Side Gallery. Dabei wurden eigene überarbeitete Versionen einzelner Mauerbilder erstellt, die sich mit den ursprünglichen Botschaften auseinandersetzen und diese aus heutiger Sicht neu interpretieren.
             <br />Das dritte Projekt vermittelt wichtige Informationen über die Berliner Mauer, die Grenze der DDR und die Entstehung sowie Bedeutung der East Side Gallery.
