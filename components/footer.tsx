@@ -1,5 +1,6 @@
 import { Button } from "./ui/button";
 import { ArrowUpIcon } from "@radix-ui/react-icons";
+import { Separator } from "./ui/separator";
 
 export function Footer() {
     return (
@@ -29,9 +30,10 @@ export function Footer() {
 
 
                     <div>
-                        <h3 className="font-bold mb-5">
+                        <h3 className="font-bold mb-2">
                             STANDORT
                         </h3>
+                        <Separator className="mb-8 h-1 w-[9%] bg-primary" />
 
                         <ul className="space-y-3">
                             <li>Heinrich-Hertz-Gymnasium</li>
@@ -41,9 +43,10 @@ export function Footer() {
                     </div>
 
                     <div className="flex flex-col">
-                        <h3 className="font-bold  mb-5">
+                        <h3 className="font-bold mb-2">
                             SOCIAL
                         </h3>
+                        <Separator className="mb-8 h-1 w-[9%] bg-primary" />
 
                             <a href="https://www.youtube.com/c/HeinrichHertzGymnasiumBerlin" target="_blank" rel="noopener noreferrer" className="hover:underline">
                                 YouTube →
@@ -57,9 +60,10 @@ export function Footer() {
                     </div>
 
                     <div>
-                        <h3 className="font-bold mb-5">
+                        <h3 className="font-bold mb-2">
                             KONTAKT
                         </h3>
+                        <Separator className="mb-8 h-1 w-[9%] bg-primary" />
 
                         <p className="leading-relaxed">
                             Öffungszeiten Sekretariat:<br/>
