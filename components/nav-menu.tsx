@@ -20,7 +20,7 @@ export function NavMenu() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Projekte</NavigationMenuTrigger>
+          <NavigationMenuTrigger className="text-xl">Projekte</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="w-65">
               <ListItem href="/twine-geschichten" title="Interaktive Geschichten">
