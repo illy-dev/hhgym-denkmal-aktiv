@@ -32,7 +32,7 @@ export default function Grenzuebergang() {
                 <br />
                 Glienicker Brücke 
                 <br />
-                Schon 1952, neun Jahre vor dem Mauerbau, wurde die Brücke für den privaten Autoverkehr gesperrt. Mit dem Mauerbau wurde der Grenzübergang dann gänzlich unpassierbar. Aufgrund ihrer Lage galt sie als besonders leicht zu überwachen. Deshalb wurde sie während des Kalten Krieges mehrfach zum Austausch von Agenten und Gefangenen zwischen Ost und West genutzt.Formularbeginn
+                Schon 1952, neun Jahre vor dem Mauerbau, wurde die Brücke für den privaten Autoverkehr gesperrt. Mit dem Mauerbau wurde der Grenzübergang dann gänzlich unpassierbar. Aufgrund ihrer Lage galt sie als besonders leicht zu überwachen. Deshalb wurde sie während des Kalten Krieges mehrfach zum Austausch von Agenten und Gefangenen zwischen Ost und West genutzt.
             </div>
 
             <Separator className="my-8 bg-gray-300" />

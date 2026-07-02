@@ -90,7 +90,7 @@ export function Zitate() {
               <Card>
                 <CardContent className="flex h-full flex-col justify-between p-6">
                   <h1 className="text-8xl font-bold text-slate-900">❝</h1>
-                  <p className="text-sm leading-6 text-slate-700">{zitat.body}</p>
+                  <p className="text-lg leading-6 text-slate-700">{zitat.body}</p>
                   <p className="mt-4 text-right text-xs font-semibold text-slate-900">— {zitat.author}</p>
                 </CardContent>
               </Card>

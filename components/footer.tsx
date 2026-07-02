@@ -1,6 +1,7 @@
 import { Button } from "./ui/button";
 import { ArrowUpIcon } from "@radix-ui/react-icons";
 import { Separator } from "./ui/separator";
+import Link from "next/link";
 
 export function Footer() {
     return (
@@ -109,12 +110,9 @@ export function Footer() {
                 <p>© Heinrich-Hertz-Gymnasium</p>
 
                 <div className="space-x-6 mt-4 md:mt-0">
-                    <a href="https://hhgym.de/impressum" className="hover:underline">
+                    <Link href="/impressum" className="hover:underline">
                         Impressum
-                    </a>
-                    <a href="https://hhgym.de/datenschutz" className="hover:underline">
-                        Datenschutz
-                    </a>
+                    </Link>
                 </div>
 
                     <Button
